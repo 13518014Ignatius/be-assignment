@@ -1,0 +1,24 @@
+{
+  "name": "be-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ignatius David Partogi",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/swagger": "^8.14.0",
+    "@fastify/swagger-ui": "^3.0.0",
+    "@prisma/client": "^5.13.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "fastify": "^4.27.0",
+    "fastify-swagger": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "prisma": "^5.13.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  }
+}
